@@ -15,11 +15,6 @@ Or Shemesh
 
 ## About the project:
 
-
-******
-this project 
-******
-
 In this project we had to produce and use the adaboost algorithm of the machine learning course.
 We took a dataset of boys and girls body heat data. We turned it into points when males are +1 and females are -1.
 From the collection of points we created different rectangles and circles and calculated the errors by the algorithm.
