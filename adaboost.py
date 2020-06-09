@@ -53,8 +53,6 @@ def circle(point65,weight) :
                 count1+=weight[j]
             elif not FindPointCircle(x1, y1, rad, x, y) and float(point65[j][1])==1:
                 count1+=weight[j]
-        for j in range(len(point65)):
-            x , y=float(point65[j][0]),float(point65[j][2])
             if FindPointCircle(x1, y1, rad, x, y) and float(point65[j][1])==1:
                 count2+=weight[j]
             elif not FindPointCircle(x1, y1, rad, x, y) and float(point65[j][1])==2:
@@ -87,8 +85,6 @@ def rectangle(point65,weight) :
                 count1+=weight[j]
             elif not FindPointrect(x1, y1, x2, y2, x, y) and float(point65[j][1])==1:
                 count1+=weight[j]
-        for j in range(len(point65)):
-            x , y=float(point65[j][0]),float(point65[j][2])
             if FindPointrect(x1, y1, x2, y2, x, y) and float(point65[j][1])==1:
                 count2+=weight[j]
             elif not FindPointrect(x1, y1, x2, y2, x, y) and float(point65[j][1])==2:
